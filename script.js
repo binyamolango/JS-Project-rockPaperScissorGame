@@ -1,8 +1,8 @@
-// function display() {
-//     console.log("Hello World");
-// } 
+ 
 
-console.log("Hello World");
-let x = 1;
-let y = 6;
-console.log(x+y);
+function getComputerChoice(){
+    const arr = ["rock", "paper", "scissor"];
+    return arr[Math.floor(Math.random() * arr.length)];
+    // return randomly either "Rock", "Paper" or "Scissors"
+}
+
